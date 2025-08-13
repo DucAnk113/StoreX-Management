@@ -161,6 +161,7 @@ SELECT * FROM Products;
 SELECT * FROM Employees;
 SELECT * FROM Customers;
 SELECT * FROM Orders;
+SELECT * FROM OrderDetails
 SELECT * FROM Users;
 SELECT * FROM Roles;
 
@@ -170,5 +171,6 @@ SET IDENTITY_INSERT Products ON;
 
 INSERT INTO Products (ProductID, ProductName, Quantity, CategoryID, SupplierID)
 VALUES (101, 'Test Product', 50, 1, 2);
+
 
 SET IDENTITY_INSERT Products OFF;
