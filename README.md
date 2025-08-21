@@ -26,17 +26,17 @@ IDE: Visual Studio
 - Yêu cầu:
 Visual Studio 2019 (hoặc mới hơn) với workload ".NET desktop development".
 Microsoft SQL Server 2019 (hoặc mới hơn) và SQL Server Management Studio (SSMS).
-Các bước cài đặt:
+- Các bước cài đặt:
 Clone repository:
 git clone https://github.com/DucAnk113/StoreX-Management.git
-Thiết lập Cơ sở dữ liệu:
-- Mở SQL Server Management Studio (SSMS).
-- Tạo một database mới (ví dụ: StoreX).
-- Chạy file script SQL bạn đã tạo (.sql) để tạo các bảng và chèn dữ liệu mẫu.
-Cấu hình Connection String:
-- Mở file solution (.sln) trong Visual Studio.
-- Tìm đến file chứa chuỗi kết nối (thường là App.config hoặc trong một lớp riêng).
-- Cập nhật lại connection string để trỏ đến database StoreX bạn vừa tạo.
-Chạy ứng dụng:
-- Build project (Build -> Build Solution).
-- Nhấn F5 để bắt đầu debug và chạy ứng dụng.
+- Thiết lập Cơ sở dữ liệu:
+Mở SQL Server Management Studio (SSMS).
+Tạo một database mới (ví dụ: StoreX).
+Chạy file script SQL bạn đã tạo (.sql) để tạo các bảng và chèn dữ liệu mẫu.
+- Cấu hình Connection String:
+Mở file solution (.sln) trong Visual Studio.
+Tìm đến file chứa chuỗi kết nối (thường là App.config hoặc trong một lớp riêng).
+Cập nhật lại connection string để trỏ đến database StoreX bạn vừa tạo.
+- Chạy ứng dụng:
+Build project (Build -> Build Solution).
+Nhấn F5 để bắt đầu debug và chạy ứng dụng.
