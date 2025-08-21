@@ -1,10 +1,10 @@
-******```StoreX Management System - Hệ thống Quản lý Cửa hàng```******
+# StoreX Management System - Hệ thống Quản lý Cửa hàng
 
 Đây là một ứng dụng desktop được xây dựng bằng C# WinForms và SQL Server để quản lý các hoạt động của một cửa hàng bán lẻ. Dự án bao gồm các chức năng quản lý sản phẩm, khách hàng, nhân viên, đơn hàng và hỗ trợ phân quyền người dùng theo vai trò.
 (WinForms inspired by my friend VVA)
 <img width="798" height="475" alt="image" src="https://github.com/user-attachments/assets/8cd2dc0b-4bd1-4367-8598-61c8245882c4" />
 
-✨ Tính năng chính
+## ✨ Tính năng chính
 - Quản lý Nhân viên: Thêm, sửa, xóa, tìm kiếm thông tin nhân viên.
 - Quản lý Khách hàng: Quản lý thông tin và lịch sử mua hàng của khách hàng.
 - Quản lý Sản phẩm: Theo dõi danh sách sản phẩm, số lượng tồn kho.
@@ -15,13 +15,13 @@ Phân quyền Người dùng: Hệ thống có 3 vai trò chính:
 - Sales (Bán hàng): Quản lý khách hàng và tạo đơn hàng.
 - Warehouse (Kho): Chỉ quản lý thông tin sản phẩm.
 
-💻 Công nghệ sử dụng
+## 💻 Công nghệ sử dụng
 Ngôn ngữ: C#
 Nền tảng: .NET Framework (Windows Forms)
 Cơ sở dữ liệu: Microsoft SQL Server
 IDE: Visual Studio
 
-🚀 Hướng dẫn cài đặt
+## 🚀 Hướng dẫn cài đặt
 Để chạy dự án trên máy của bạn, hãy làm theo các bước sau:
 - Yêu cầu:
 Visual Studio 2019 (hoặc mới hơn) với workload ".NET desktop development".
