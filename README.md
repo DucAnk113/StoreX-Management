@@ -16,10 +16,10 @@ Phân quyền Người dùng: Hệ thống có 3 vai trò chính:
 - Warehouse (Kho): Chỉ quản lý thông tin sản phẩm.
 
 ## 💻 Công nghệ sử dụng
-Ngôn ngữ: C#
-Nền tảng: .NET Framework (Windows Forms)
-Cơ sở dữ liệu: Microsoft SQL Server
-IDE: Visual Studio
+- Ngôn ngữ: C#
+- Nền tảng: .NET Framework (Windows Forms)
+- Cơ sở dữ liệu: Microsoft SQL Server
+- IDE: Visual Studio
 
 ## 🚀 Hướng dẫn cài đặt
 Để chạy dự án trên máy của bạn, hãy làm theo các bước sau:
